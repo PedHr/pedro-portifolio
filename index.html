@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Rosa | Desenvolvedor de Software</title>
+    <meta name="description" content="Portfólio de Pedro Rosa, desenvolvedor de software com foco em Python, Sistemas Embarcados e Análise de Dados.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="#" class="logo">PR</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Pedro Rosa</h1>
+                    <p class="hero-subtitle">Desenvolvedor de Software focado em <span id="typed-text"></span></p>
+                    <div class="hero-socials">
+                        <a href="https://github.com/PedHr" target="_blank" title="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pedro-rosa-b66b70224/" target="_blank" title="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container grid-container">
+                <div class="about-image">
+                    <img src="pedro.jpg" alt="Foto de Pedro Rosa">
+                </div>
+                <div class="about-content">
+                    <h2>Sobre Mim</h2>
+                    <p>Olá! Meu nome é Pedro, tenho 19 anos e sou um desenvolvedor de software com uma grande paixão por criar soluções que unem o digital e o físico. Meu foco principal é em Python, mas meu interesse se estende profundamente para o universo dos sistemas embarcados e o poder da análise de dados.</p>
+                    <p>Acredito que a tecnologia deve ser limpa, eficiente e, acima de tudo, útil. Estou constantemente explorando novas ferramentas e frameworks para aprimorar minhas habilidades e construir projetos cada vez mais desafiadores e inovadores.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>Minhas Habilidades</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Hard Skills</h3>
+                        <ul>
+                            <li><strong>Linguagens:</strong> Python, C/C++, SQL</li>
+                            <li><strong>Análise de Dados:</strong> Pandas, NumPy, Matplotlib</li>
+                            <li><strong>Sistemas Embarcados:</strong> Raspberry Pi, Arduino, ESP32</li>
+                            <li><strong>Ferramentas:</strong> Git, Docker, VS Code</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Resolução de Problemas Complexos</li>
+                            <li>Pensamento Crítico e Analítico</li>
+                            <li>Comunicação Técnica Clara</li>
+                            <li>Aprendizagem Rápida e Autônoma</li>
+                            <li>Trabalho em Equipe e Colaboração</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Projetos Destacados</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3>API 1 Semestre - Fatec</h3>
+                            <p>Oferecer aos eleitores dados claros e acessíveis que ajudem a tomar decisões informadas nas eleições municipais que se aproximam.</p>
+                            <div class="project-tags">
+                                <span>Python</span><span>Flask</span><span>SQL</span><span>AWS</span>
+                            </div>
+                            <a href="https://github.com/matheuskarnas/API-1" class="project-link" target="_blank">Ver no GitHub &rarr;</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3>API 2 Semestre - Fatec</h3>
+                            <p>A aplicação tem como objetivo fornecer uma plataforma digital intuitiva, acessível e moderna para divulgar e valorizar as empresas patrocinadoras do programa da Helpnei, destacando de maneira clara e visualmente impactante o impacto positivo dos seus investimentos no fortalecimento do empreendedorismo local.</p>
+                            <div class="project-tags">
+                                <span>React</span><span>TypeScript</span><span>Vite</span><span>Yup</span><br><span>Recharts</span><span>Supabase</span>
+                            </div>
+                            <a href="#" class="project-link" target="_blank">Ver no GitHub &rarr;</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Vamos Conversar?</h2>
+                <p>Estou sempre aberto a novas oportunidades, projetos e colaborações. Sinta-se à vontade para entrar em contato.</p>
+                <a href="mailto:seu.email@exemplo.com" class="cta-button">Enviar um E-mail</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Pedro Rosa.</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
